@@ -1,0 +1,78 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.container{
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  height: 100vh;
+  width: 85vw;
+  margin: 0 auto;
+}
+
+.container > img, section{
+  align-self: center;
+}
+
+h1, h2{
+  font-family: 'Merriweather';
+}
+
+h2{
+  font-size: 15px;
+}
+
+form a{
+  margin-left: 80px;
+}
+
+#email, #password{
+  margin: 10px 0;
+  padding: 15px 20px;
+  width: 310px;
+  border-radius: 5px;
+  border: 2px solid rgb(184, 184, 184);
+}
+
+form{
+  font-family: lato;
+  margin: 30px 0;
+}
+
+#submit, button{
+  font-family: lato;
+  font-size: 15px;
+  padding: 15px 0;
+  width: 354px;
+  text-align: center;
+  margin-top: 10px;
+  color: white;
+  border-radius: 5px;
+  border: none;
+}
+
+#submit:hover, button:hover{
+  cursor: pointer;
+}
+
+#google{
+  position: absolute;
+  right: 425px;
+  bottom: 190px;
+}
+
+section > div{
+  display: flex;
+  font-family: lato;
+  gap: 10px;
+  text-decoration: none;
+}
+
+#submit{
+  background-color: #04C35C;
+}
+
+button{
+  background-color: #1a202c;
+}
